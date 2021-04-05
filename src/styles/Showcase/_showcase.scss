@@ -1,0 +1,10 @@
+.showcase {
+  background-color: $base-color;
+  height: 85vh;
+
+  &__navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline; 
+  }
+};

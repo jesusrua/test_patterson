@@ -1,0 +1,48 @@
+
+.navbar {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+
+  &__logo__container__img {
+    height: 80px;
+    margin: 0px;
+  }
+
+  &__cart__details__container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__img img {
+      height: 27px;
+      margin-right: 20px;
+    }
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+
+
+      &__price {
+        margin: 0;
+        color: $base-text-color;
+        font-size: 14px;
+      }
+
+      &__title {
+        margin: 0;
+        font-size: 15px;
+        color: black;
+
+      }
+    }
+  }
+}
